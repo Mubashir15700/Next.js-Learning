@@ -1,12 +1,12 @@
 "use server";
 
 export default async function MyServerComponent() {
-  const serverData = "This is rendered on the server!";
+  const data = { message: "Temporary server data" };
 
   return (
     <div>
-      <h1>Server Component</h1>
-      <p>{serverData}</p>
+      <h3>Server Component</h3>
+      <p>{data.message}</p>
     </div>
   );
 }

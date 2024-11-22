@@ -3,10 +3,10 @@ import MyClientComponent from "@/components/MyClientComponent";
 
 const page = () => {
   return (
-    <div>
+    <>
       <MyServerComponent />
       <MyClientComponent />
-    </div>
+    </>
   );
 };
 
