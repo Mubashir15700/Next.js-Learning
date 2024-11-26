@@ -8,13 +8,16 @@ const Page = () => {
   return (
     <div>
       <h1>Hello, Next.js!</h1>
-      <button
-        onClick={() => {
-          router.push("/my-route");
-        }}
-      >
-        My Route
-      </button>
+      <div style={{ border: "1px solid black", padding: "1rem" }}>
+        <h3>Welcome to Home Route</h3>
+        <button
+          onClick={() => {
+            router.push("/users");
+          }}
+        >
+          View Users
+        </button>
+      </div>
     </div>
   );
 };

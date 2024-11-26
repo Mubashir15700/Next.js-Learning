@@ -5,7 +5,7 @@ export default function MyRouteLayout({
 }) {
   return (
     <>
-      <h1>Welcome to My Route</h1>
+      <h2>Welcome to Users Route</h2>
       {/* Other Layout UI */}
       <main>{children}</main>
     </>
